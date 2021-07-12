@@ -1,0 +1,25 @@
+.b-card {
+    display: flex;
+    flex-direction: column;
+    &__container {
+        padding: 25px 16px 20px 16px;
+        background: #F8F8F8;
+    }
+    &__heading {
+        font-size: 13px;
+        line-height: 17px;
+        color: #000000;
+        padding-bottom: 12px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 17px;
+        color: #5D5D5D;
+        padding-bottom: 18px;
+    }
+    &__price {
+        font-size: 16px;
+        line-height: 19px;
+        color: #F16D7F;
+    }
+}
