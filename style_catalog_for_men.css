@@ -1,10 +1,16 @@
 /* TOP */
 
-.rightPartMenu {
+
+/* .rightPartMenu {
     position: relative;
+} */
+
+.catalogSecondPartTopBackground {
+    background: #F8F3F4;
 }
 
-.menuCart_header {
+
+/* .menuCart_header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
@@ -30,11 +36,7 @@
     background-color: white;
     width: 500px;
     padding: 10px;
-    border-radius: 8px;
-}
-
-.catalogSecondPartTopBackground {
-    background: #F8F3F4;
+    border-radius: 8px; 
 }
 
 .card-picked {
@@ -49,18 +51,19 @@
     background: rgba(58, 56, 56, 0.86);
     display: flex;
     justify-content: center;
-    /*центрируем элемент по горизонтали */
-    align-items: center;
-    /* и вертикали */
+    центрируем элемент по горизонтали
+    align-items: center; 
+     и вертикали
     width: 100%;
-    /* задали размеры блоку-родителю */
+    задали размеры блоку-родителю 
     height: 100%;
-    /* text-align: center; */
+    text-align: center; 
 }
 
 .card-hidden {
     display: none;
 }
+*/
 
 .catalogSecondPartTop {
     display: flex;
