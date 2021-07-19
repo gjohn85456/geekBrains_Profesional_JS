@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evgeniy_Shop</title>
+    <title>Evgeniy_Shop v 2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_catalog_for_men.css">
 </head>
@@ -22,10 +22,26 @@
                 <a href="#"><img src="img/menuTop.svg" alt="menu" class="right_img rightMenuTop_img"></a>
                 <a href="#"><img src="img/logInTop.svg" alt="logIn" class="right_img"></a>
                 <span class="bay">
-                    <a href="cart.html"><img src="img/ShoppingBasketTop.svg" alt="ShoppingBasket"></a>
-                    <span>5</span>
+                    <a href="cart.html"><img src="img/ShoppingBasketTop.svg" alt="ShoppingBasket" class="shoppingBasket"></a>
+                    <span id="cartItems">0</span>
                 </span>
-
+                <div class="menuCart menuCartHidden">
+                    <div class="menuCart_header menuCart_header_bolder">
+                        <div>Название товара</div>
+                        <div>Количество</div>
+                        <div>Цена за шт.</div>
+                        <div>Итого <br></div>
+                    </div>
+                    <!-- <br>
+                    <hr>
+                    <br>
+                    <div class="menuCart_header">
+                        <div>Товар</div>
+                        <div>1</div>
+                        <div>10$</div>
+                        <div>10$ <br></div>
+                    </div> -->
+                </div>
             </div>
         </div>
 
@@ -107,14 +123,20 @@
         </div>
 
         <div class="b-catalog b-catalog_adaptive">
-            <!-- <div class="b-card ">
-                <img src="img/imgCard-1.png " alt="imgCard-1">
-                <div class="b-card__container ">
-                    <h3 class="b-card__heading ">Product1</h3>
-                    <p class="b-card__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="b-card__price">$10.00</p>
+            <!-- <div class="card-picked ">
+                <div class="b-card ">
+                    <img src="img/imgCard-1.png " alt="imgCard-1">
+                    <div class="b-card__container ">
+                        <h3 class="b-card__heading ">Product1</h3>
+                        <p class="b-card__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="b-card__price">$10.00</p>
+                    </div>
+                </div>
+                <div class="card-selected card-hidden">
+                    <img src="img/Add_to_cart.png" alt="Add_to_cart" class="img_add_to_cart">
                 </div>
             </div>
+
             <div class="b-card ">
                 <img src="img/imgCard-2.png " alt="imgCard-2 ">
                 <div class="b-card__container ">
@@ -154,10 +176,9 @@
                     <p class="b-card__text ">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                     <p class="b-card__price ">$55.55</p>
                 </div>
-            </div> -->
-
+            </div>
+            -->
         </div>
-
         <div class="conainerMainCatalogButton ">
             <a href="product.html" class="mainCatalogButton ">Browse All Product</a>
         </div>
@@ -212,12 +233,9 @@
             </div>
         </div>
     </div>
-    <script src="script.js">
-        function hi() {
-            console.log("hi");
-        }
-    </script>
-    <script src="index_js.js"></script>
+    <script src="index_js.js" defer></script>
+    <!-- <script src="app.js" defer></script> -->
+    <script src="script.js" defer></script>
 </body>
 
 </html>

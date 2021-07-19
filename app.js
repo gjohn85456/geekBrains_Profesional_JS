@@ -18,7 +18,10 @@ let menuCartEl = document.querySelector('.menuCart');
 let priceEl = document.querySelectorAll('.b-card__price');
 let cartEl = document.querySelectorAll('.img_add_to_cart');
 
-shoppingBasketEl.addEventListener('click', () => {
+shoppingBasketEl.addEventListener('mouseover', () => {
+    menuCartEl.classList.toggle('menuCartHidden');
+});
+shoppingBasketEl.addEventListener('mouseout', () => {
     menuCartEl.classList.toggle('menuCartHidden');
 });
 
